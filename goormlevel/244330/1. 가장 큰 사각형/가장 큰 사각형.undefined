@@ -1,0 +1,8 @@
+T = int(input())
+maxArea = -1
+
+for _ in range(T):
+	w, h = map(int, input().split())
+	maxArea = max(maxArea, w * h)
+
+print(maxArea)
