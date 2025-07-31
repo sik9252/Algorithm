@@ -120,9 +120,6 @@ class DualPriorityQueue {
 }
 
 function solution(operations) {
-    var answer = [];
-    
-    // 최대힙 (최댓값이 맨 앞에)
     const dpq = new DualPriorityQueue();
     
     for (const opString of operations) {
