@@ -5,19 +5,14 @@ using namespace std;
 int n, team, A, B, asum, bsum;
 string t, prv;
 
-string print(int a) {
-	string d = "00" + to_string(a / 60);
-	string e = "00" +to_string(a % 60);
-	
-	return d.substr(d.size() - 2, 2) + ":" + e.substr(e.size() - 2, 2);
-}
-
-int stringToInt(string a) {
-	return atoi(a.substr(0, 2).c_str()) * 60 + atoi(a.substr(3, 2).c_str());
+int stringToIntSecond(string a) {
+	// (0, 2) -> 분, (3, 2) -> 초, c_str() -> C char로 변환 
+	// return atoi(a.substr(0, 2).c_str()) * 60 + atoi(a.substr(3, 2).c_str());
+	return stoi(a.substr(0, 2)) * 60 + stoi(a.substr(3, 2));
 }
 
 void calc(int &sum, string s) {
-	sum += (stringToInt(s) - stringToInt(prv));
+	sum += (stringToIntSecond(s) - stringToIntSecond(prv));
 }
 
 int main() {
@@ -41,8 +36,8 @@ int main() {
 	if (A > B) calc(asum, "48:00");
 	else if (B > A) calc(bsum, "48:00");
 	
-	cout << print(asum) << "\n";
-	cout << print(bsum) << "\n";
+	printf("%02d:%02d\n", asum / 60, asum % 60);
+	printf("%02d:%02d\n", bsum / 60, bsum % 60);
 	
 	return 0;
 }
