@@ -14,7 +14,7 @@ int main() {
 		cin >> s;
 		stack<char> st;
 		
-		for (int i = 0; i < s.length(); i++) {
+		for (int i = 0; i < s.size(); i++) {
 			char cur = s[i];
 			
 			if (!st.empty() && st.top() == '(' && cur == ')') {
