@@ -22,4 +22,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0383-ransom-note](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 <!---LeetCode Topics End-->
