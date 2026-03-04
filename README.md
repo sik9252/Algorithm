@@ -14,10 +14,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0383-ransom-note](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
+| [0409-longest-palindrome](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0383-ransom-note](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
+| [0409-longest-palindrome](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -34,4 +36,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0409-longest-palindrome](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 <!---LeetCode Topics End-->
