@@ -1,19 +1,16 @@
 function solution(s){
-    let stack = []
-    
-    s = s.split("");
+    var answer = true;
+    const stack = [];
     
     for (let i = 0; i < s.length; i++) {
-        if (stack.length === 0 && s[i] === ")") {
-            return false;
-        }
-        
-        if (s[i] === "(") {
-            stack.push("(");
-        } else if (s[i] === ")") {
+        if (stack.length === 0 || s[i] === "(") {
+            stack.push(s[i]);
+        } else {
             stack.pop();
         }
     }
+    
+    answer = stack.length === 0 ? true : false;
 
-    return stack.length > 0 ? false : true;
+    return answer;
 }
