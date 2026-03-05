@@ -1,6 +1,13 @@
 function solution(nums) {
-    const answer = [...new Set(nums)];
-    const possibleChoice = nums.length / 2;
+    var answer = 0;
+    const a = new Set(nums);
+    const b = nums.length / 2;
+
+    if (a.size > b) {
+        answer = b;
+    } else {
+        answer = a.size;
+    }
     
-    return answer.length > possibleChoice ? possibleChoice : answer.length;
+    return answer;
 }
