@@ -1,25 +1,25 @@
 function solution(progresses, speeds) {
-    let leftDays = [];
-    let answer = [];
+    var answer = [];
+    const leftDays = [];
     
     for (let i = 0; i < progresses.length; i++) {
-        let leftProgress = 100 - progresses[i];
-        let leftDay = Math.ceil(leftProgress / speeds[i]);
+        const leftProgress = 100 - progresses[i];
+        const needDay = Math.ceil(leftProgress / speeds[i]);
         
-        leftDays.push(leftDay);
+        leftDays.push(needDay);
     }
     
-    let currentMax = leftDays[0];
+    let current = leftDays[0];
     let count = 1;
-
+    
     for (let i = 1; i < leftDays.length; i++) {
-      if (leftDays[i] <= currentMax) {
-        count++;
-      } else {
-        answer.push(count);
-        currentMax = leftDays[i];
-        count = 1;
-      }
+        if (leftDays[i] <= current) {
+            count++;
+        } else {
+            answer.push(count);
+            current = leftDays[i];
+            count = 1;
+        }
     }
     
     answer.push(count);
