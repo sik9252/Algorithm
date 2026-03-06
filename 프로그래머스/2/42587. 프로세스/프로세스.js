@@ -1,22 +1,23 @@
-function solution(priorities, location) {        
-    let count = 0;
-    let maxPriority = Math.max(...priorities);
+function solution(priorities, location) {
+    var answer = 0;
+
+    const queue = priorities.map((p, i) => ({p, i}));
+    const sorted = [...priorities].sort((a, b) => b - a);
+    let sp = 0;
     
-    while (true) {
-        const currentProcess = priorities.shift();
+    while (queue.length) {
+        const current = queue.shift();
         
-        if (currentProcess === maxPriority) {
-            count ++;
-            if (location === 0) {
-                return count;
-            }
-            maxPriority = Math.max(...priorities);
-        } else {
-            priorities.push(currentProcess);
+        if (current.p < sorted[sp]) {
+            queue.push(current);
+            continue;
         }
         
-        location = location === 0 ? priorities.length - 1 : location - 1;
+        answer++;
+        sp++;
+        
+        if (current.i === location) {
+            return answer;
+        }
     }
-    
-    return count;
 }
