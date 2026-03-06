@@ -1,16 +1,19 @@
 function solution(sizes) {
-    let width = [];
-    let height = [];
-    
-    sizes.forEach(([a, b]) => {
-        if (a >= b) {
-            width.push(a);
-            height.push(b);
-        } else {
-            width.push(b);
-            height.push(a);
+    let maxLong = 0;
+    let maxShort = 0;
+
+    for (const [w, h] of sizes) {
+        const long = Math.max(w, h);
+        const short = Math.min(w, h);
+        
+        if (long > maxLong) {
+            maxLong = long;
         }
-    })
-    
-    return Math.max(...width) * Math.max(...height);
+        
+        if (short > maxShort) {
+            maxShort = short;
+        }
+    }
+
+    return maxLong * maxShort;
 }
