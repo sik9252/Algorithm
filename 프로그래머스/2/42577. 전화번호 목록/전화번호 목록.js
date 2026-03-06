@@ -1,9 +1,12 @@
 function solution(phone_book) {
-    phone_book.sort();
+    const sorted = phone_book.sort();
 
-    const isPrefix = phone_book.some((phone, i) => {
-        return phone_book[i+1]?.startsWith(phone);
-    })
+    for (let i = 0; i < phone_book.length - 1; i++) {
+        if (phone_book[i+1].startsWith(phone_book[i])) {
+            return false;
+        }
+    }
+    
+    return true;
 
-    return !isPrefix
 }
