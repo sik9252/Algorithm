@@ -1,7 +1,5 @@
 function solution(brown, yellow) {
     const areaSize = brown + yellow;
-    let w = 1;
-    let h = 1;
     
     for (let w = areaSize; w >= 1; w--) {
         if (areaSize % w !== 0) continue;
