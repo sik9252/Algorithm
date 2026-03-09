@@ -1,18 +1,16 @@
 function solution(brown, yellow) {
-    let answer = [];
-    const area = brown + yellow;
+    const areaSize = brown + yellow;
+    let w = 1;
+    let h = 1;
     
-    for (let w = 3; w <= area; w++) {
-        if (area % w !== 0) continue;
+    for (let w = areaSize; w >= 1; w--) {
+        if (areaSize % w !== 0) continue;
         
-        const h = area / w;
-        
+        const h = areaSize / w;
         if (w < h) continue;
         
-        if((w - 2) * (h - 2) === yellow) {
-            answer = [w, h];
+        if ((w - 2) * (h - 2) === yellow) {
+            return [w, h];
         }
     }
-    
-    return answer;
 }
