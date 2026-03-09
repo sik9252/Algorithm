@@ -1,17 +1,14 @@
 function solution(clothes) {
-    let answer = 1;
-    let wardrobe = new Map();
+    var answer = 1;
+    const map = new Map();
     
-    for (const clothe of clothes) {
-        const key = clothe[1];
-        const count = wardrobe.has(key) ? wardrobe.get(key) : 0;
-        wardrobe.set(key, count + 1);
+    for (const [c, type] of clothes) {
+        map.set(type, (map.get(type) || 0) + 1);
     }
     
-    for (const [key, value] of wardrobe) {
-        console.log(value)
-        answer *= (value + 1);
-    }   
+    for (const v of map.values()) {
+        answer *= (v + 1);
+    }
     
     return answer - 1;
 }
