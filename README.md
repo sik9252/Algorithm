@@ -19,6 +19,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0383-ransom-note](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [0409-longest-palindrome](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 ## Counting
@@ -29,6 +30,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0070-climbing-stairs](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -62,4 +64,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 <!---LeetCode Topics End-->
