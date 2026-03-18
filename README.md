@@ -14,6 +14,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+| [0217-contains-duplicate](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0383-ransom-note](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [0409-longest-palindrome](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 ## String
@@ -57,6 +58,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+| [0217-contains-duplicate](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -65,6 +67,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+| [0217-contains-duplicate](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
