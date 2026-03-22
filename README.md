@@ -25,6 +25,7 @@
 | [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0383-ransom-note](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [0409-longest-palindrome](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
+| [0844-backspace-string-compare](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0844-backspace-string-compare/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -79,6 +80,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
+| [0844-backspace-string-compare](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0844-backspace-string-compare/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -97,9 +99,14 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0844-backspace-string-compare](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0844-backspace-string-compare/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0844-backspace-string-compare](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0844-backspace-string-compare/) | Easy |
 <!---LeetCode Topics End-->
