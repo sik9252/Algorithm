@@ -41,6 +41,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
+| [0338-counting-bits](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -76,6 +77,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
+| [0338-counting-bits](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
