@@ -22,6 +22,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
+| [0014-longest-common-prefix](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0383-ransom-note](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [0409-longest-palindrome](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
@@ -62,6 +63,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0169-majority-element](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 ## Divide and Conquer
@@ -117,4 +119,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0844-backspace-string-compare](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0844-backspace-string-compare/) | Easy |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
