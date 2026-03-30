@@ -64,6 +64,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
+| [0136-single-number](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0169-majority-element](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 ## Divide and Conquer
@@ -80,6 +81,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0067-add-binary](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
+| [0136-single-number](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0191-number-of-1-bits](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 | [0338-counting-bits](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 ## Simulation
