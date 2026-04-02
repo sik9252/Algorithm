@@ -69,6 +69,7 @@
 | [0136-single-number](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0169-majority-element](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
+| [0283-move-zeroes](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -113,6 +114,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0234-palindrome-linked-list](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
+| [0283-move-zeroes](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0844-backspace-string-compare](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0844-backspace-string-compare/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/sik9252/Algorithm/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
 ## Breadth-First Search
