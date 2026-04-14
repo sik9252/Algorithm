@@ -1,15 +1,12 @@
-function solution(A,B){
-    let total = 0;
+function solution(A, B) {
+    let answer = 0;
     
-    A = A.sort((a, b) => a - b);
-    B = B.sort((a, b) => b - a);
+    A.sort((a, b) => a - b);
+    B.sort((a, b) => b - a);
     
-    while (A.length > 0) {
-        const first = A.shift();
-        const second = B.shift();
-        
-        total += first * second;
+    for (let i = 0; i < A.length; i++) {
+        answer += A[i] * B[i];
     }
     
-    return total;
+    return answer;
 }
